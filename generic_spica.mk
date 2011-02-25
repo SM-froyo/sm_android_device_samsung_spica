@@ -41,11 +41,8 @@ wifi.supplicant_scan_interval=90
 
 PRODUCT_PACKAGES += \
     ADWLauncher \
-    CMParts \
-    CMPartsHelper \
-#    CMStats \
-#    CMUpdateNotify \
-#    CMWallpapers \
+    SMParts \
+    SMPartsHelper \
 #    FileManager \
     Stk \
     Superuser
