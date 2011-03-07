@@ -13,4 +13,4 @@
 # limitations under the License.
 
 
-include $(call all-named-subdir-makefiles, libaudio libsensors liblights gps camera)
+include $(call all-named-subdir-makefiles, libaudio libsensors liblights libs3cjpeg gps camera)
