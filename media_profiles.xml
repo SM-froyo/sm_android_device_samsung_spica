@@ -116,7 +116,7 @@
     </CamcorderProfiles>
 
 
-    <EncoderOutputFileFormat name="mp4" />
+    <EncoderOutputFileFormat name="mp" />
     <EncoderOutputFileFormat name="mp4" />
 
     <!--
