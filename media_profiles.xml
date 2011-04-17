@@ -81,7 +81,7 @@
 
         <EncoderProfile quality="high" fileFormat="mp4" duration="60">
             <Video codec="m4v"
-                   bitRate="360000"
+                   bitRate="768000"
                    width="640"
                    height="480"
                    frameRate="30" />
@@ -92,8 +92,8 @@
                    channels="1" />
         </EncoderProfile>
 
-        <EncoderProfile quality="low" fileFormat="mp4" duration="60">
-            <Video codec="m4v"
+        <EncoderProfile quality="low" fileFormat="3gp" duration="60">
+            <Video codec="h263"
                    bitRate="192000"
                    width="352"
                    height="288"
@@ -116,7 +116,7 @@
     </CamcorderProfiles>
 
 
-    <EncoderOutputFileFormat name="mp4" />
+    <EncoderOutputFileFormat name="3gp" />
     <EncoderOutputFileFormat name="mp4" />
 
     <!--
@@ -125,16 +125,16 @@
          or query the capabilities of the codec at all if it is disabled
     -->
     <VideoEncoderCap name="h263" enabled="true"
-        minBitRate="192000" maxBitRate="420000"
-        minFrameWidth="352" maxFrameWidth="640"
-        minFrameHeight="288" maxFrameHeight="480"
-        minFrameRate="1" maxFrameRate="20" />
+        minBitRate="192000" maxBitRate="768000"
+        minFrameWidth="176" maxFrameWidth="640"
+        minFrameHeight="144" maxFrameHeight="480"
+        minFrameRate="1" maxFrameRate="30" />
 
     <VideoEncoderCap name="m4v" enabled="true"
-        minBitRate="192000" maxBitRate="420000"
+        minBitRate="192000" maxBitRate="768000"
         minFrameWidth="352" maxFrameWidth="640"
         minFrameHeight="288" maxFrameHeight="480"
-        minFrameRate="1" maxFrameRate="20" />
+        minFrameRate="1" maxFrameRate="30" />
 
     <AudioEncoderCap name="amrnb" enabled="true"
         minBitRate="5525" maxBitRate="12200"
